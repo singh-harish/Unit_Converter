@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_border"
+        android:backgroundTint="#349beb"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/distance" />
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/ib1"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_border"
+        android:backgroundTint="#FB6542"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/temperature" />
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/ib2"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_border"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#FFBB00"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/time" />
+
+    <ImageButton
+        android:id="@+id/ib4"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/ib3"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_border"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#34eb64"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/weight" />
+</RelativeLayout>
